@@ -10,19 +10,19 @@ import org.testng.annotations.BeforeSuite;
 import pl.kurs_selenium.utils.DriverFactory;
 
 public class BaseTest {
-    public static ExtentHtmlReporter extentHtmlReporter;
-    public static ExtentReports extentReports;
+    public ExtentHtmlReporter extentHtmlReporter;
+    public ExtentReports extentReports;
 
     protected WebDriver driver;
 
     @BeforeSuite
-    public static void beforeSuite(){
-        extentHtmlReporter = new ExtentHtmlReporter("index.html");
+    public void beforeSuite(){
+        extentHtmlReporter = new ExtentHtmlReporter("carSearchTest.html");
         extentReports = new ExtentReports();
         extentReports.attachReporter(extentHtmlReporter);
     }
     @AfterSuite
-    public static void afterSuite() {
+    public void afterSuite() {
         extentHtmlReporter.flush();
         extentReports.flush();
     }

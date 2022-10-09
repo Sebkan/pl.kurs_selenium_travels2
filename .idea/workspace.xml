@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b96b1fe-1f86-4bc1-bf5c-4865d408500c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" afterDir="false" />
+    <list default="true" id="7b96b1fe-1f86-4bc1-bf5c-4865d408500c" name="Changes" comment="Added Extent reports in BaseTest methods;&#10;Added get Screenshot method">
+      <change afterPath="$PROJECT_DIR$/carSearchTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/CarDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/CarSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/ConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/InvoicePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/LoggedUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/CarSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/SignUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sceenshots/screenshot362.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sceenshots/screenshot502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sceenshots/screenshot936.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +43,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Fl4q26sQ04mOcdDvpii1sdGLT5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="DriverTest.driverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.kurs_selenium.pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sebka\Desktop\pl.kurs_selenium_travels2\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CarSearchTest.carSearch">
+    <configuration name="CarSearchTest.carSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pl.kurs_selenium_travels2" />
       <extension name="coverage">
         <pattern>
@@ -55,9 +75,79 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.DriverTest" />
-      <option name="METHOD_NAME" value="driverTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.CarSearchTest" />
+      <option name="METHOD_NAME" value="carSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.registerAccountWithShortPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.SignUpTest" />
+      <option name="METHOD_NAME" value="registerAccountWithShortPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.registerAccountWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.SignUpTest" />
+      <option name="METHOD_NAME" value="registerAccountWithValidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.registerAccountWithoutInvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.SignUpTest" />
+      <option name="METHOD_NAME" value="registerAccountWithoutInvalidEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.kurs_selenium.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -66,7 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DriverTest.driverTest" />
+        <item itemvalue="TestNG.CarSearchTest.carSearch" />
+        <item itemvalue="TestNG.pl.kurs_selenium.tests" />
+        <item itemvalue="TestNG.SignUpTest.registerAccountWithValidData" />
+        <item itemvalue="TestNG.SignUpTest.registerAccountWithShortPassword" />
+        <item itemvalue="TestNG.SignUpTest.registerAccountWithoutInvalidEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +173,35 @@
       <option name="presentableId" value="Default" />
       <updated>1665053526682</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created DriverFactory;&#10;Created SeleniumHelper with waits;&#10;Created BaseTest;&#10;Added log4j2.xml">
+      <created>1665058079783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665058079783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added log4j2.xml">
+      <created>1665058105398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665058105398</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Extent reports in BaseTest methods;&#10;Added get Screenshot method combined with reports.">
+      <created>1665059868652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665059868652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created DriverFactory;&#10;Created SeleniumHelper with waits;&#10;Created BaseTest;&#10;Added log4j2.xml" />
+    <MESSAGE value="Added log4j2.xml" />
+    <MESSAGE value="Added Extent reports in BaseTest methods;&#10;Added get Screenshot method combined with reports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Extent reports in BaseTest methods;&#10;Added get Screenshot method combined with reports." />
   </component>
 </project>
